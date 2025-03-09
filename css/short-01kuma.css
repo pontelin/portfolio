@@ -1,0 +1,113 @@
+header {
+  background-image: url(../image.short/short-kuma-hd.png);
+}
+
+
+/* -----------text集----------- */
+#short-text-1 {
+  position: absolute;
+  top: 15px;     
+  left: 30px;
+}
+#short-text-2 {
+  position: absolute;
+  top: 45px;     
+  left: 60px;
+}
+#short-text-3 {
+  position: absolute;
+  top: 105px;     
+  left: 30px;
+}
+
+#short-text-4 {
+  position: absolute;
+  top: 135px;     
+  left: 30px;
+}
+#short-text-5 {
+  position: absolute;
+  top: 211px;     
+  left: 0px;
+}
+#short-text-6 {
+  position: absolute;
+  top: 253px;     
+  left: 30px;
+}
+#short-text-7 {
+  position: absolute;
+  top: 508px;     
+  left: 0px;
+}
+#short-text-8 {
+  position: absolute;
+  top: 545px;     
+  left: 30px;
+}
+#short-text-9 {
+  position: absolute;
+  top: 630px;     
+  left: 0px;
+}
+#short-text-10 {
+  position: absolute;
+  top: 661px;     
+  left: 30px;
+}
+#short-text-11 {
+  font-size: 0.75em;
+  position: absolute;
+  top: 744px;     
+  left: 135px;
+}
+#short-text-13 {
+  position: absolute;
+  top: 43px;     
+  left: 30px;
+  font-size: 1em;
+}
+
+#short-text-14 {
+  position: absolute;
+  top: 210px;     
+  left: 150px;
+}
+#short-text-15 {
+  position: absolute;
+  top: 250px;     
+  left: 30px;
+}
+#short-text-16 {
+  position: absolute;
+  top: 450px;     
+  left: 30px;
+}
+#short-text-17 {
+  position: absolute;
+  top: 700px;     
+  left: 0px;
+}
+#short-text-18 {
+  position: absolute;
+  top: 740px;     
+  left: 30px;
+}
+
+
+
+/* ふきだし */
+#short-kuma-img01 {
+  position: absolute;
+  top: 160px;     
+  right: 0px;    
+
+}
+/* グラフ */
+#short-kuma-img02 {
+  position: absolute;
+  top: 293px;     
+  right: 100px;    
+}
+
+

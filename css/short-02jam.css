@@ -1,0 +1,134 @@
+header {
+  background-image: url(../image.short/short-kuma-hd.png);
+}
+
+
+/* -----------text集----------- */
+#yuzu-text-1 {
+  position: absolute;
+  top: 15px;     
+  left: 0px;
+}
+#yuzu-text-2 {
+  position: absolute;
+  top: 60px;     
+  left: 30px;
+}
+#yuzu-text-3 {
+  position: absolute;
+  top: 105px;     
+  left: 30px;
+}
+
+#yuzu-text-4 {
+  position: absolute;
+  top: 135px;     
+  left: 30px;
+}
+#yuzu-text-5 {
+  position: absolute;
+  top: 211px;     
+  left: 0px;
+}
+#yuzu-text-6 {
+  position: absolute;
+  top: 253px;     
+  left: 30px;
+}
+#yuzu-text-7 {
+  position: absolute;
+  top: 508px;     
+  left: 0px;
+}
+#yuzu-text-8 {
+  position: absolute;
+  top: 545px;     
+  left: 30px;
+}
+#yuzu-text-9 {
+  position: absolute;
+  top: 630px;     
+  left: 0px;
+}
+#yuzu-text-10 {
+  position: absolute;
+  top: 661px;     
+  left: 30px;
+}
+#yuzu-text-11 {
+  font-size: 0.75em;
+  position: absolute;
+  top: 744px;     
+  left: 135px;
+}
+#yuzu-text-13 {
+  position: absolute;
+  top: 43px;     
+  left: 30px;
+  font-size: 1em;
+}
+
+#short-text-14 {
+  position: absolute;
+  top: 464px;     
+  left: 0px;
+}
+#short-text-15 {
+  position: absolute;
+  top: 510px;     
+  left: 30px;
+}
+#short-text-16 {
+  position: absolute;
+  top: 450px;     
+  left: 30px;
+}
+#short-text-17 {
+  position: absolute;
+  top: 700px;     
+  left: 0px;
+}
+#short-text-18 {
+  position: absolute;
+  top: 740px;     
+  left: 30px;
+}
+
+
+
+/* 柚子 */
+#yuzu {
+  position: absolute;
+  top: 418px;     
+  right: 130px;    
+  border-radius: 50%;
+  width: 200px;  /* 希望のサイズに設定 */
+  height: 200px; /* 幅と同じ値に設定 */
+  object-fit: cover; /*画像のアスペクト比を保持*/
+}
+/* 鳥 */
+#tori01 {
+  position: absolute;
+  top: 310px;     
+  left: 50px;
+}
+#tori02 {
+  position: absolute;
+  top: 190px;     
+  left: 50px;
+}
+#tori03 {
+  position: absolute;
+  top: 180px;     
+  right: 50px;
+}
+#tori04 {
+  position: absolute;
+  top: 295px;     
+  right: 50px;
+}
+#tori05 {
+  position: absolute;
+  top: 220px;     
+  right: 130px;
+}

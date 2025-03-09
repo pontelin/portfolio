@@ -1,0 +1,148 @@
+header {
+  background-image: url(../image/bento-hd.png);
+}
+
+
+/* -----------text集----------- */
+#bent-text-1 {
+  position: absolute;
+  top: 39px;     
+  left: 30px;
+}
+#bent-text-2 {
+  position: absolute;
+  top: 353px;     
+  left: 5px;
+}
+#bent-text-3 {
+  position: absolute;
+  top: 462px;     
+  left: 210px;
+}
+
+#bent-text-4 {
+  position: absolute;
+  top: 39px;     
+  left: 30px;
+}
+#bent-text-5 {
+  position: absolute;
+  top: 143px;     
+  left: 0px;
+}
+#bent-text-6 {
+  position: absolute;
+  top: 181px;     
+  left: 30px;
+}
+#bent-text-7 {
+  position: absolute;
+  top: 565px;     
+  left: 30px;
+}
+#bent-text-8 {
+  position: absolute;
+  top: 730px;     
+  left: 0px;
+}
+#bent-text-9 {
+  position: absolute;
+  top: 776px;     
+  left: 30px;
+}
+#bent-text-10 {
+  position: absolute;
+  top: 35px;     
+  left: 30px;
+}
+#bent-text-11 {
+  position: absolute;
+  top: 92px;     
+  left: 0px;
+}
+#bent-text-12 {
+  position: absolute;
+  top: 134px;     
+  left: 30px;
+}
+#bent-text-13 {
+  position: absolute;
+  top: 428px;     
+  left: 30px;
+}
+#bent-text-14 {
+  position: absolute;
+  top: 754px;     
+  left: 60px;
+}
+
+
+
+
+
+/* 箸の絵 */
+#bento-img01 {
+  position: absolute;
+  top: 96px;     
+  right: 0px;    
+  z-index: 2;  /* 重なり順を指定 */
+}
+#bento-img02 {
+  position: absolute;
+  top: 167px;     
+  left: 0px;   
+  z-index: 1;  
+}
+#bento-img03 {
+  position: absolute;
+  top: 291px;     
+  left: 156px; 
+  z-index: 0;  
+}
+/* バレンの絵 */
+#bento-img04 {
+  position: absolute;
+  top: 405px;    
+  left: 0px;
+}
+/* モクモクの絵 */
+#bento-img05 {
+  position: absolute;
+  top: 622px;     
+  left: 46px;
+  z-index: 1;
+}
+#bento-img05:hover {
+  transform: scale(1.02);  /* わずかに拡大 */
+}
+/* 悩む絵 */
+#bento-img06 {
+  position: absolute;
+  top: 28px;     
+  left: 368px;
+}
+/* cad図 */
+#bento-img07 {
+  position: absolute;
+  top: 316px;     
+  left: 86px;
+  border-radius: 10px;
+}
+/* ふわり */
+#bento-img08 {
+  position: absolute;
+  top: 208px;     
+  left: 94px;
+}
+
+/* 完成品スクショ */
+#bento-img11 {
+  position: absolute;
+  top: 471px;  
+  left: 30px;
+}
+#bento-img11:hover {
+  transform: scale(1.02);  /* わずかに拡大 */
+}
+
+

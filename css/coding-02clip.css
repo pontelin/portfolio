@@ -1,0 +1,137 @@
+header {
+  background-image: url(../image/clip-hd.png);
+}
+
+/* -----------text集----------- */
+#clip-text-1 {
+  position: absolute;
+  top: 39px;     
+  left: 30px;
+}
+#clip-text-2 {
+  position: absolute;
+  top: 310px;     
+  left: 5px;
+}
+#clip-text-3 {
+  position: absolute;
+  top: 416px;     
+  left: 210px;
+}
+
+#clip-text-4 {
+  position: absolute;
+  top: 39px;     
+  left: 30px;
+}
+#clip-text-5 {
+  position: absolute;
+  top: 323px;     
+  left: 0px;
+}
+#clip-text-6 {
+  position: absolute;
+  top: 362px;     
+  left: 30px;
+}
+
+#bent-text-8 {
+  position: absolute;
+  top: 730px;     
+  left: 0px;
+}
+#bent-text-9 {
+  position: absolute;
+  top: 776px;     
+  left: 30px;
+}
+#bent-text-10 {
+  position: absolute;
+  top: 35px;     
+  left: 30px;
+}
+#bent-text-11 {
+  position: absolute;
+  top: 92px;     
+  left: 0px;
+}
+#bent-text-12 {
+  position: absolute;
+  top: 134px;     
+  left: 30px;
+}
+#clip-text-13 {
+  position: absolute;
+  top: 428px;     
+  left: 30px;
+}
+
+/* タブレットの絵 */
+#clip-img01 {
+  position: absolute;
+  top:401px;     
+  left: 0px;    
+}
+#clip-img02 {
+  position: absolute;
+  top: 120px;     
+  left: 0px;   
+  z-index: 1;  
+}
+#clip-img03 {
+  position: absolute;
+  top: 238px;     
+  left: 156px; 
+  z-index: 0;  
+}
+
+/* モクモクの絵 */
+#clip-img05 {
+  position: absolute;
+  top: 622px;     
+  left: 46px;
+  z-index: 1;
+}
+#clip-img05:hover {
+  transform: scale(1.02);  /* わずかに拡大 */
+}
+/* ボタン */
+#clip-img06 {
+  position: absolute;
+  top:150px;     
+  left: 80px;
+  border-radius: 8px;
+  border: 2px dotted rgba(0, 0, 0, 0.45);
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+/* ボタンの絵 */
+#clip-img06-2 {
+  position: absolute;
+  top: 150px;     
+  right: 50px;
+}
+/* cad図 */
+#clip-img07 {
+  position: absolute;
+  top: 454px;     
+  left: 86px;
+  border-radius: 10px;
+}
+/* 悩む図 */
+#clip-img08 {
+  position: absolute;
+  top: 132px;     
+  right: 0px;
+}
+
+/* 完成品スクショ */
+#clip-img11 {
+  position: absolute;
+  top: 500px;  
+  left: 30px;
+}
+#clip-img11:hover {
+  transform: scale(1.02);  /* わずかに拡大 */
+}
+
+

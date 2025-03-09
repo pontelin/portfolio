@@ -1,0 +1,145 @@
+@import url(sanitize.css);
+@import url(font.css);
+* {
+  margin: 0px;
+}
+a {
+  text-decoration: none;  /* 下線を消す */
+  color: inherit;  /* 親要素と同じ色を継承 */
+}
+
+body{
+  background-color: #FFFCF4;
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 30px 30px 370px 30px 30px 520px 30px 30px  ;
+    grid-template-rows: 100px 50px;
+    width: 1440px;
+    height: 1024px;
+    border: 5px solid #D9FCFF;
+    background-color: #FFFCF4;
+    margin: auto;
+  }
+header {
+    grid-column: 1/10;
+    grid-row: 1/2;
+    text-align: center;
+
+    background-image: url(../image/coding-hd.png);
+    padding: 20px;
+    /* --------------------フレックス */
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    align-items: center;  /* 縦方向の中央揃え */
+    gap: 20px;
+  }
+.upper{
+  grid-column: 1/10;
+  grid-row: 2/3;
+  border-top: 1px solid #D9FCFF;
+  border-bottom: 1px solid #D9FCFF;
+
+
+}
+.L-1 {
+  position: relative;
+  grid-column: 1/2;
+  grid-row: 1/4;
+  /* text-align: center; */
+  border-right: 1px solid #D9FCFF;
+}
+.L-2 {
+  grid-column: 2/3;
+  grid-row: 1/4;
+  /* text-align: center; */
+  border-right: 1px solid #D9FCFF;
+}
+.L-3 {
+  position: relative;
+  grid-column: 2/4;
+  grid-row: 3/4;
+  /* text-align: center; */
+
+}
+.L-3 a:hover {
+  cursor: pointer;
+}
+
+#FM {
+  position: absolute;
+  top: 655px;
+  left: 90px;
+  text-align: center;
+}
+.M-1 {
+  grid-column: 4/5;
+  grid-row: 1/4;
+  /* text-align: center; */
+  border-right: 1px solid #D9FCFF;
+  border-left: 1px solid #D9FCFF;
+}
+.M-2 {
+  grid-column: 5/6;
+  grid-row: 1/4;
+  /* text-align: center; */
+  border-right: 1px solid #D9FCFF;
+}
+.M-3 {
+  position: relative;
+  grid-column: 5/7;
+  grid-row: 3/4;
+  /* text-align: center; */
+
+}
+.R-1 {
+  grid-column: 7/8;
+  grid-row: 1/4;
+  /* text-align: center; */
+  border-right: 1px solid #D9FCFF;
+  border-left: 1px solid #D9FCFF;
+}
+
+.R-2 {
+  grid-column: 8/9;
+  grid-row: 1/4;
+
+  border-right: 1px solid #D9FCFF;
+}
+.R-3{
+  position: relative;
+  grid-column: 8/10;
+  grid-row: 3/4;
+
+}
+
+/* -----------text集----------- */
+
+
+/* -----------image集----------- */
+#mekuru {
+  position: absolute;
+  bottom: 0px;     
+  left: 0px;    
+  z-index: 1;
+}
+#mekuru:hover {
+  transform: scale(1.02);  /* わずかに拡大 */
+}
+/* 完成品強調マーク */
+#common-img09 {
+  position: absolute;
+  top: 316px;
+  right: 30px;
+}
+/* 完成品文字 */
+#common-img10 {
+  position: absolute;
+  top: 362px;  
+  left: 83px;
+}
+
+
